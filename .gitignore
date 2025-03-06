@@ -1,0 +1,28 @@
+# Xcode
+
+## User settings
+xcuserdata/
+
+## Playgrounds
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj
+
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+.build/
+
+# We want to ignore the Package.resolved from our internal packages,
+# as this file is only applicable for Package development.
+# The xcodeproj is responsible for managing the dependency graph for our application.
+Libraries/Package.resolved
+
+.DS_Store
